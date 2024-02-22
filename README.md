@@ -25,6 +25,14 @@ yarn dev
 yarn build
 ```
 
+## 使用するパッケージマネージャー
+
+### yarn
+
+## 使用を推奨している Visual Studio Code の拡張機能
+
+### Prettier - Code formatter
+
 ## 開発時のルール
 
 1. 作業しようとする際には、まずその内容の issue を作成する
@@ -36,14 +44,6 @@ yarn build
     ※ 取り組もうとしている issue にセルフで Assign する
 
 3. 作業終了後、develop ブランチに PRs をし、各自コンフリクトを解消してからマージする
-
-## 使用するパッケージマネージャー
-
-### yarn
-
-## 使用を推奨している Visual Studio Code の拡張機能
-
-### Prettier - Code formatter
 
 ## branch のルール
 

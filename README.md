@@ -5,7 +5,7 @@
 以下、このサイトの URL です。
 [https://pokemon-ga-document.yukiosada.work/](https://pokemon-ga-document.yukiosada.work/)
 
-# 環境構築
+## 環境構築
 
 ```bathc
 git clone https://github.com/pokemon-GA/pokemon-ga-document.git
@@ -13,35 +13,37 @@ cd pokemon-ga-document
 yarn
 ```
 
-# ローカルサーバーの起動
+## ローカルサーバーの起動
 
 ```batch
 yarn dev
 ```
 
-# ビルド
+## ビルド
 
 ```batch
 yarn build
 ```
 
-# 開発時のルール
+## 開発時のルール
 
 1. 作業しようとする際には、まずその内容の issue を作成する
-   ※ issue を作成した際、必ず Label も付ける
+
+    ※ issue を作成した際、必ず Label も付ける
 
 2. レポジトリを clone し、正しいと思われるブランチ名で develop ブランチから feature ブランチを作成する
-   ※ 取り組もうとしている issue にセルフで Assign する
+
+    ※ 取り組もうとしている issue にセルフで Assign する
 
 3. 作業終了後、develop ブランチに PRs をし、各自コンフリクトを解消してからマージする
 
 ## 使用するパッケージマネージャー
 
-#### yarn
+### yarn
 
 ## 使用を推奨している Visual Studio Code の拡張機能
 
-#### Prettier - Code formatter
+### Prettier - Code formatter
 
 ## branch のルール
 

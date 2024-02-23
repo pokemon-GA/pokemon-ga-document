@@ -3,6 +3,7 @@ const Hello = () => {
         <>
             <h1>Hwllo, World!</h1>
             <div></div>
+            <div></div>
         </>
     );
 };

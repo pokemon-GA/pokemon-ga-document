@@ -29,7 +29,7 @@ const Page2 = () => {
                     text={'対戦した際のポケモンの評価を計算する関数の作成'}
                     button={'notHidden'}
                     buttonText={'About evaluation function'}
-                />
+                    />
             </FlexDiv>
         </Page1div>
     );

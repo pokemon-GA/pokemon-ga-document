@@ -9,7 +9,7 @@
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "prettier": "yarn prettier --write \"./**/*.{js, jsx}\"",
-        "prepare": "husky install"
+        "prepare": "husky"
     },
     "dependencies": {
         "react": "^18.2.0",
@@ -25,11 +25,6 @@
             "yarn prettier --check \"./**/*.{js, jsx}\"",
             "yarn eslint --fix --ext .js,.jsx ."
         ]
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
     },
     "devDependencies": {
         "@types/react": "^18.2.43",

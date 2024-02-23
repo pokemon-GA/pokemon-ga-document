@@ -1,0 +1,9 @@
+const Hello = () => {
+    return (
+        <>
+            <h1>Hwllo, World!</h1>
+        </>
+    );
+};
+
+export default Hello;

@@ -24,8 +24,12 @@ const Page2 = () => {
         <Page1div id="pageTop2">
             <PageTitle title={'About this website'} />
             <FlexDiv>
-                <PageCard lang={''} langClass={'hidden'} title={''} text={''} button={'hidden'} buttonText={''} />
-                <PageCard lang={''} langClass={'hidden'} title={''} text={''} button={'hidden'} buttonText={''} />
+            <PageCard
+                    title={'Evaluation Function'}
+                    text={'対戦した際のポケモンの評価を計算する関数の作成'}
+                    button={'notHidden'}
+                    buttonText={'About evaluation function'}
+                />
             </FlexDiv>
         </Page1div>
     );

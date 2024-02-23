@@ -36,10 +36,12 @@ const Page2 = () => {
                     link={''}
                 />
                 <PageCard
-                    title={'React'}
+                    title={'SPA'}
                     lang={''}
                     langClass={'hidden'}
-                    text={''}
+                    text={
+                        'このサイトはSPI(Single Page Application)と呼ばれるもので、ブラウザによるページ遷移を行わず、単一のページでコンテンツを切り替えています。'
+                    }
                     button={'hidden'}
                     buttonText={''}
                     link={''}

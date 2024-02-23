@@ -18,6 +18,13 @@
         "styled-components": "^6.1.8",
         "uuid": "^9.0.1"
     },
+    "lint-staged": {
+        "*.{js, jsx}": [
+            "yarn prettier --write \"./**/*.{js, jsx}\"",
+            "yarn prettier --check \"./**/*.{js, jsx}\"",
+            "yarn eslint --fix --ext .js,.jsx ."
+        ]
+    },
     "devDependencies": {
         "@types/react": "^18.2.43",
         "@types/react-dom": "^18.2.17",
@@ -29,11 +36,5 @@
         "husky": "^9.0.11",
         "lint-staged": "^15.2.2",
         "vite": "^5.0.8"
-    },
-    "lint-staged": {
-        "*.{js, jsx}": [
-            "prettier --write \"./src/**/*.{js,jsx}\"",
-            "eslint --fix \"src/**/*.{js,jsx}\""
-        ]
     }
 }

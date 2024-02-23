@@ -24,12 +24,26 @@ const Page2 = () => {
         <Page1div id="pageTop2">
             <PageTitle title={'About this website'} />
             <FlexDiv>
-            <PageCard
-                    title={'Evaluation Function'}
-                    text={'対戦した際のポケモンの評価を計算する関数の作成'}
-                    button={'notHidden'}
-                    buttonText={'About evaluation function'}
-                    />
+                <PageCard
+                    title={'React'}
+                    lang={''}
+                    langClass={'hidden'}
+                    text={
+                        'このサイトはReactを用いて作られています。コンポーネントに分割することで、効率的に開発できるだけでなく、変更や修正に強いコードを実現しています。'
+                    }
+                    button={'hidden'}
+                    buttonText={''}
+                    link={''}
+                />
+                <PageCard
+                    title={'React'}
+                    lang={''}
+                    langClass={'hidden'}
+                    text={''}
+                    button={'hidden'}
+                    buttonText={''}
+                    link={''}
+                />
             </FlexDiv>
         </Page1div>
     );

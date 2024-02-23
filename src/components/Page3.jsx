@@ -12,8 +12,10 @@ const FlexDiv = styled.div`
     display: flex;
     gap: 140px;
     width: fit-content;
+    max-width:900px;
+    justify-content:center;
     margin: 53px auto 106px;
-
+    flex-wrap:wrap;
     @media (max-width: 1024px) {
         flex-direction: column;
     }

@@ -59,6 +59,10 @@ const Text = styled.p`
     font-size: 16px;
     padding: 0 55px;
     padding-bottom: 40px;
+
+    @media (max-width: 768px) {
+        padding-bottom: 20px;
+    }
 `;
 
 const PageCard = (props) => {

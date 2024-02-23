@@ -40,6 +40,11 @@ const PageCardDiv = styled.div`
         display: none;
     }
 
+    a{
+        color:rgba(0, 224, 255, 1);
+        text-decoration:none;
+    }
+
     @media (max-width: 768px) {
         width: 300px;
 
@@ -73,7 +78,7 @@ const PageCard = (props) => {
                 <Lang className={props.langClass}>{props.lang}</Lang>
                 <Text>{props.text}</Text>
                 <button className={props.button} aria-label="Card Button">
-                    {props.buttonText}
+                    <a href={props.link}>{props.buttonText}</a>
                 </button>
             </div>
         </PageCardDiv>

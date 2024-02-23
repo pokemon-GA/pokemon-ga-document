@@ -32,6 +32,7 @@ const Page3 = () => {
                     text={'一定の条件下で最も勝率の高いじゃんけんの戦略は何かを計算する。'}
                     button={'notHidden'}
                     buttonText={'Janken Strategy'}
+                    link={'https://janken.yukiosada.work/'}
                 />
                 <PageCard
                     title={'ES-Engine'}
@@ -40,6 +41,7 @@ const Page3 = () => {
                     text={'交叉を用いず、突然変異のみを用いたプログラム。'}
                     button={'notHidden'}
                     buttonText={'ES-Engine'}
+                    link={'https://es-engine.yukiosada.work/'}
                 />
                 <PageCard
                     title={'Pokémon-GA API'}
@@ -48,6 +50,7 @@ const Page3 = () => {
                     text={'Agent based modelをじゃんけんで作成。'}
                     button={'notHidden'}
                     buttonText={'Pokémon-GA-API'}
+                    link={'https://pokemon-ga-api.yukiosada.work/docs#/'}
                 />
                 <PageCard
                     title={'Pokémon-GA API document'}
@@ -56,6 +59,7 @@ const Page3 = () => {
                     text={'Pokémon-GA APIの説明をしているサイト。'}
                     button={'notHidden'}
                     buttonText={'Pokémon-GA API document'}
+                    link={'https://myxogastria0808.github.io/pokemon-ga-api-document/'}
                 />
             </FlexDiv>
         </Page1div>

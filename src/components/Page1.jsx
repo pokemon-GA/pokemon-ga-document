@@ -66,7 +66,7 @@ const Page1 = () => {
                 }
             />
             <PageTextDiv>
-                <PageText title={'Quest'} lang={''} langClass={'hidden'} text={'内容'} />
+                <PageText title={'Quest'} lang={''} langClass={'hidden'} text={'svシーズン1の使用率top100のポケモンのみで構成された環境になっている。ポケモンの型は、ポケモン対戦にある程度知見がある2人が、育成論の記事を読んでメジャーであると感じたものを独断と偏見で採用。'} />
             </PageTextDiv>
         </Page1div>
     );

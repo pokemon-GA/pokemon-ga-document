@@ -27,17 +27,33 @@ const Page3 = () => {
                     title={'Janken Strategy'}
                     lang={'使用言語: R言語, typescript'}
                     langClass={'notHidden'}
-                    text={'Agent based modelをじゃんけんで作成。'}
+                    text={'一定の条件下で最も勝率の高いじゃんけんの戦略は何かを計算する。'}
                     button={'notHidden'}
-                    buttonText={'About G.A. Sample'}
+                    buttonText={'Janken Strategy'}
                 />
                 <PageCard
-                    title={'genetic algorithms Sample'}
+                    title={'ES-Engine'}
                     lang={'使用言語: python'}
                     langClass={'notHidden'}
-                    text={'遺伝的アルゴリズムのサンプルを作成'}
+                    text={'交叉を用いず、突然変異のみを用いたプログラム。'}
                     button={'notHidden'}
-                    buttonText={'About evaluation function'}
+                    buttonText={'ES-Engine'}
+                />
+                <PageCard
+                    title={'Pokémon-GA API'}
+                    lang={'使用言語: python,Rust(友人の作成した評価関数の部分)'}
+                    langClass={'notHidden'}
+                    text={'Agent based modelをじゃんけんで作成。'}
+                    button={'notHidden'}
+                    buttonText={'Pokémon-GA-API'}
+                />
+                <PageCard
+                    title={'Pokémon-GA API document'}
+                    lang={'使用言語: Rust'}
+                    langClass={'notHidden'}
+                    text={'Pokémon-GA APIの説明をしているサイト。'}
+                    button={'notHidden'}
+                    buttonText={'Pokémon-GA API document'}
                 />
             </FlexDiv>
         </Page1div>

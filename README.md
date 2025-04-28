@@ -5,6 +5,13 @@
 以下、このサイトの URL です。
 [https://pokemon-ga-document.yukiosada.work/](https://pokemon-ga-document.yukiosada.work/)
 
+## DeepWiki
+
+> [!WARNING]
+> 生成されたdeepwikiの内容の正確性は、検証していません。
+
+https://deepwiki.com/pokemon-GA/pokemon-ga-document/
+
 ## 環境構築
 
 ```bathc
